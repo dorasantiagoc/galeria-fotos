@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>books to read in 2024</h1>
+    <button type="button">+ new image</button>
+  </header>
+  <form>
+    <h2>add new book</h2>
+    <input type="url" id="endereco-imagem-nova" required placeholder="link da capa" />
+    <button type="submit">add</button>
+    <button type="reset" id="botao-cancelar">cancel</button>
+  </form>
+  <ul>
+    <li>
+      <img src="./capa1.jpg" alt="capa do livro 'seven days in june'" />
+      <div class="overlay-imagem-link">
+        <a href="./capa1.jpg" tittle="ver imagem em tamanho real" target="_blank" >
+          ver imagem em tamanho real
+        </a>  
+      </div>
+    </li>
+    <li>
+      <img src="./capa2.jpg" alt="capa do livro 'a cachorra'" />
+      <div class="overlay-imagem-link">
+        <a href="./capa2.jpg" tittle="ver imagem em tamanho real" target="_blank" >
+          ver imagem em tamanho real
+        </a>  
+      </div>
+    </li>
+    <li>
+      <img src="./capa3.jpg" alt="capa do livro 'pequena coreografia do adeus'" />
+      <div class="overlay-imagem-link">
+        <a href="./capa3.jpg" tittle="ver imagem em tamanho real" target="_blank" >
+          ver imagem em tamanho real
+        </a>  
+      </div>
+    </li>
+  </ul>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
